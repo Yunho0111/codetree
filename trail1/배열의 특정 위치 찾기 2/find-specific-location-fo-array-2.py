@@ -1,5 +1,6 @@
 arr=list(map(int,input().split()))
 odd_arr=arr[::2]
 even_arr=arr[1::2]
-
-print(abs(sum(odd_arr)-sum(even_arr)))
+sum_odd=sum(odd_arr)
+sum_even=sum(even_arr)
+print(abs(sum_odd-sum_even))
